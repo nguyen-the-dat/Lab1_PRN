@@ -1,0 +1,99 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "AutomobileLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/AutomobileLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AutomobileLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AutomobileLibrary/1.0.0": {
+      "type": "project",
+      "path": "../AutomobileLibrary/AutomobileLibrary.csproj",
+      "msbuildProject": "../AutomobileLibrary/AutomobileLibrary.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "AutomobileLibrary >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\admin\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\DOCUMENTS FOR FPT\\Kì 5\\C#\\LAB1_PT1_PRN211-main\\AutomobileStore\\AutomobileWinApp\\AutomobileWinApp.csproj",
+      "projectName": "AutomobileWinApp",
+      "projectPath": "D:\\DOCUMENTS FOR FPT\\Kì 5\\C#\\LAB1_PT1_PRN211-main\\AutomobileStore\\AutomobileWinApp\\AutomobileWinApp.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "D:\\DOCUMENTS FOR FPT\\Kì 5\\C#\\LAB1_PT1_PRN211-main\\AutomobileStore\\AutomobileWinApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "D:\\DOCUMENTS FOR FPT\\Kì 5\\C#\\LAB1_PT1_PRN211-main\\AutomobileStore\\AutomobileLibrary\\AutomobileLibrary.csproj": {
+              "projectPath": "D:\\DOCUMENTS FOR FPT\\Kì 5\\C#\\LAB1_PT1_PRN211-main\\AutomobileStore\\AutomobileLibrary\\AutomobileLibrary.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
